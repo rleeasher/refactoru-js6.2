@@ -1,0 +1,63 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; border:none;
+ }
+
+li {
+	list-style: none;
+}
+
+.person {
+	font-size: 20px;
+	padding: 20px 0;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+
+}
+
+.vitals ul>div>li>h3 {
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	padding-right: 20px;
+ 	display: inline;
+ }
+
+ .vitals ul>div {
+ 	padding: 5px 0;
+
+ }
+
+ .list-values {
+ 	float: right;
+ }
+
+
+.vitals {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+
+ .portrait img{
+ 	margin: 0 auto;
+ 	display: block;
+ 	max-height: 200px;
+ 	border-radius: 1000px;
+ }
+
+
+ .main-container {
+ 	padding:40px;
+ 	width: 400px;
+ 	margin: 0 auto;
+ }
+
+ .bio-heading {
+ 	font-size: 16px;
+ 	font-weight: bold;
+ }
+
+ .bio-content {
+ 	font-size: 12px;
+ }
